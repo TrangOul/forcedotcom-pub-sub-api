@@ -3,7 +3,7 @@
 - [About Pub/Sub API](#about-pubsub-api)
 - [gRPC](#grpc)
 - [Documentation and Blog Posts](#documentation-and-blog-post)
-- [Code Samples](#code-samples)
+- [Code Samples](#code-samples-from-salesforce)
 
 ## About Pub/Sub API
 Welcome to Pub/Sub API! Pub/Sub API provides a single interface for publishing and subscribing to platform events, including real-time event monitoring events, and change data capture events. Based on [gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and HTTP/2, Pub/Sub API enables efficient delivery of binary event messages in the Apache Avro format.
@@ -36,11 +36,18 @@ officially supported languages have well-supported Avro libraries:
 - [Salesforce Architects Blog Post](https://medium.com/salesforce-architects/announcing-pub-sub-api-generally-available-3980c9eaf0b7)
 - [Introducing the New gRPC-based Pub Sub API YouTube Developer Quick Takes](https://youtu.be/g9P87_loVVA)
 
-## Code Samples
+## Code Samples from Salesforce
+Salesforce provides these samples for demonstration purposes. They aren't meant to be used in production code. Before you use these samples in production, make sure you perform thorough functional and performance testing.
+- [Java Quick Start in the Developer Guide](https://developer.salesforce.com/docs/platform/pub-sub-api/guide/qs-java-quick-start.html)
 - [Python Quick Start in the Developer Guide](https://developer.salesforce.com/docs/platform/pub-sub-api/guide/qs-python-quick-start.html)
 - [Python Code Examples](python/)
 - [Go Code Examples](go/)
 - [Java Code Examples](java/)
+
+## Code Samples from the Developer Community
+These examples are developed by the community. They aren't supported by Salesforce. Use at your own discretion.
 - [E-Bikes Sample Application](https://github.com/trailheadapps/ebikes-lwc)
 - [Pub/Sub API Node Client](https://github.com/pozil/pub-sub-api-node-client)
-  
+- [.NET Code Examples](https://github.com/Meyce/pub-sub-api/tree/main/.Net)
+
+If you have a code sample for Pub/Sub API that you would like to add a link to in this section, submit a PR with the modified readme page. We don't guarantee that we can link to all samples. Priority will be given to samples implemented in a programming language that is not represented in this repository's samples.
